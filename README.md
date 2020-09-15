@@ -4,9 +4,9 @@ The script help you to understand the bascis of Buffer overflow and will save yo
 I have created different file step by step to make.
 Following sequence is as followed
 
-1. Fuzzing
-2. Crash Replication & Controlling EIP
-3. Metasploit random pattren
+1. Fuzzing (fuzzer.py)
+2. Crash Replication & Controlling EIP (Crash Replication.py)
+3. Metasploit random pattren 
 4. use mona to find out the pattren offset
 5. Finding Bad Characters
 6. Finding a Jump Point
