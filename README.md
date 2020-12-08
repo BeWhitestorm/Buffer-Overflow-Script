@@ -12,7 +12,10 @@ Following sequence is as followed
 6. Finding a Jump Point
 7. Generate Payload
 8. Prepend NOPs
-**Mona Configuration**
+|| use everything above and add your prefix + overflow + retn + padding + payload + postfix
+ to **exploit.py**
+
+Important 1st set **Mona Configuration** to a specific folder
 
 ```
 !mona config -set workingfolder c:\mona\%p
