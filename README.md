@@ -2,8 +2,7 @@
 The script help you to understand the bascis of Buffer overflow and will save you a lot of time while executing the attack.
 
 I have created different file step by step to make.
-Following sequence is as followed
-**Follow Readme.md**
+Below is the following sequence -
 1. Fuzzing (fuzzer.py)
 2. Crash Replication & Controlling EIP (Crash Replication.py)
 3. Metasploit random pattren 
