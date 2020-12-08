@@ -3,7 +3,7 @@ The script help you to understand the bascis of Buffer overflow and will save yo
 
 I have created different file step by step to make.
 Following sequence is as followed
-
+**Follow Readme.md**
 1. Fuzzing (fuzzer.py)
 2. Crash Replication & Controlling EIP (Crash Replication.py)
 3. Metasploit random pattren 
@@ -12,7 +12,7 @@ Following sequence is as followed
 6. Finding a Jump Point
 7. Generate Payload
 8. Prepend NOPs
-|| use everything above and add your prefix + overflow + retn + padding + payload + postfix
+9. Use everything above and add your prefix + overflow + retn + padding + payload + postfix
  to **exploit.py**
 
 Important 1st set **Mona Configuration** to a specific folder
