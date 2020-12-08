@@ -8,7 +8,7 @@ Following sequence is as followed
 2. Crash Replication & Controlling EIP (Crash Replication.py)
 3. Metasploit random pattren 
 4. use mona to find out the pattren offset
-5. Finding Bad Characters
+5. Finding Bad Characters (Badchars.py)
 6. Finding a Jump Point
 7. Generate Payload
 8. Prepend NOPs
